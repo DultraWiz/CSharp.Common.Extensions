@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	  <RootNamespace>CSharp.Common.Extensions</RootNamespace>
+	  <AssemblyName>CSharp.Common.Extensions</AssemblyName>
+	  <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
+	  <Description>A random collection of useful extensions for C#.</Description>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <DebugType>pdbonly</DebugType>
+	  <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+</Project>
